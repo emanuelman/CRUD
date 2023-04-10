@@ -20,6 +20,5 @@ from livros import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('livros/', views.home, name="home"),
-    path('lista_livros/', views.lista_livros, name="lista_livros")
 ]
 

@@ -8,19 +8,18 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Cadastro de livros</title>
+    <title>Cadastro de Lirvos</title>
   </head>
   <body>
-
     <form action="" method="POST">
         {% csrf_token %}
         <center>
-            <h1>Cadastre um livro</h1>
-            <br><br>
-            Nome do Livro: <input type="text" name="nome-livro">
-            Nome do Autor: <input type="text" name="nome-autor">
-            <input type="submit">
-        <center>
+        <h1>Cadastre seus livros!</h1>
+        <br><br>
+        Nome do Livro: <input name="nome_livro" type="text">
+        Nome do Autor: <input name="nome_autor" type="text">
+        <input type="submit" value="Salvar">
+        </center>
     </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
